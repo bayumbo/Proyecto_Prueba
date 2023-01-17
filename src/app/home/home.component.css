@@ -1,0 +1,82 @@
+body{
+    
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+
+}
+
+/* header */
+header{
+    background: white;
+    font-family:'Lucida Sans'; 
+}
+.header {
+    background: white;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    }
+
+.header > div {
+    padding: 10px;
+    background: white;
+}
+
+.header > div:first-child {
+    margin-right: 20px;
+    background: white;
+}
+
+#logo{
+    width: 80px;
+    background: white;
+    margin-left: 10px;
+}
+#nombre{
+    color: rgb(7, 59, 105);
+    font-size: 50px;  
+}
+#carrera1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);    
+    
+}
+#carrera2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255); 
+}
+#carrera3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.carreras {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.carreras > div {
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.carreras > div:first-child {
+    margin-right: auto;
+}
+
